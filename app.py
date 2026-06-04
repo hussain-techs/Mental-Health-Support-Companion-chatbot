@@ -69,7 +69,7 @@ def get_response(user_input, history):
     # ── Greetings ──
     elif any(w in msg for w in ["hello", "hi", "hey", "salam", "assalam", "helo", "hii"]):
         return random.choice([
-            "Hello! So glad you're here. This is a safe, judgment-free space. How are you feeling today? 🌿",
+            "Hello! So glad you're here. This is a safe, judgment-free space. How are you feeling today? ",
             "Hi there! Welcome. I'm here to listen without any judgment. What's on your mind today? 💙",
             "Hey! I'm really happy you reached out. How has your day been going? 🌱"
         ])
